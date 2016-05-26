@@ -10,6 +10,11 @@
 
         public long DurationInSeconds { get; set; }
 
+        public Calls()
+        {
+
+        }
+
         public Calls(DateTime date, long dialledPhones, long durationInSeconds)
         {
             this.Date = date;

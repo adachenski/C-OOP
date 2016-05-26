@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+
     public class GSM
     {
         private string Model { get; set; }
@@ -43,11 +44,25 @@
 
         public void DeleteCalls(Calls call)
         {
+            Console.WriteLine("================== Removing Longest Call ================= \n");
             CallHistory.Remove(call);
+        }
+
+        public double CallPrice()
+        {
+            double totalMimutes = 0;
+            double price = 0.37;
+            foreach (var item in CallHistory)
+            {
+                totalMimutes += item.DurationInSeconds;
+            }
+            double finalAmount = (totalMimutes / 60) * price;
+            return finalAmount;
         }
 
         public void ClearHistory()
         {
+            Console.WriteLine("================== Call History Cleaned ================= \n");
             this.CallHistory = new List<Calls>();
         }
 
