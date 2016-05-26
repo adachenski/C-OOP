@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DefiningClasses_1", "DefiningClasses_1", "{B77E6DCC-8074-47C1-937C-04D4BD0ACC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses_1", "DefiningClasses_1\DefiningClasses_1.csproj", "{047CC800-810B-4C91-8AA6-B36A7560C848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefiningClasses_1.Phone", "Phone\DefiningClasses_1.Phone.csproj", "{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{047CC800-810B-4C91-8AA6-B36A7560C848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047CC800-810B-4C91-8AA6-B36A7560C848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047CC800-810B-4C91-8AA6-B36A7560C848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047CC800-810B-4C91-8AA6-B36A7560C848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{047CC800-810B-4C91-8AA6-B36A7560C848} = {B77E6DCC-8074-47C1-937C-04D4BD0ACC56}
+		{A9E60136-4BED-40F3-B5D5-B905CAFFCEE2} = {B77E6DCC-8074-47C1-937C-04D4BD0ACC56}
+	EndGlobalSection
+EndGlobal
