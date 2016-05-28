@@ -31,9 +31,11 @@
             get { return o; }
         }
 
-        public Point3D(double x) : this()
+        public Point3D(double x, double y, double z) : this()
         {
-
+            this.X = x;
+            this.Y = y;
+            this.Z = z;
         }
 
         public override string ToString()
